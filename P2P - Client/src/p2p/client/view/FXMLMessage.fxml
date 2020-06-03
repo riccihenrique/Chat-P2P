@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="p2p.client.view.FXMLMessageController">
+   <children>
+      <JFXTextArea fx:id="txtChat" editable="false" prefHeight="245.0" prefWidth="405.0" />
+      <HBox alignment="BOTTOM_LEFT" prefHeight="37.0" prefWidth="412.0">
+         <children>
+            <JFXTextField fx:id="txtMessage" prefHeight="26.0" prefWidth="320.0" promptText="Digite uma mensagem">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </JFXTextField>
+            <JFXButton onAction="#clkSend" text="Send" />
+         </children>
+         <VBox.margin>
+            <Insets left="5.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

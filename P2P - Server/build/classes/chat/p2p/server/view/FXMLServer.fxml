@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="431.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.p2p.server.view.FXMLServerController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="79.0" prefWidth="498.0" spacing="100.0" style="-fx-background-color: #95afc0;">
+         <children>
+            <JFXButton fx:id="btnStart" onAction="#clkStart" prefHeight="26.0" prefWidth="244.0" text="Start" />
+         </children>
+      </HBox>
+      <TableView fx:id="tableClients" prefHeight="351.0" prefWidth="498.0" style="-fx-background-color: #dff9fb;">
+        <columns>
+          <TableColumn fx:id="colIp" prefWidth="180.0" text="IP" />
+          <TableColumn fx:id="colName" prefWidth="203.0" text="Name" />
+            <TableColumn fx:id="colPort" prefWidth="114.0" text="Port" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

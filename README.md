@@ -12,8 +12,8 @@ Após a conexão de um usuário, o servidor atualiza a lista interna e envia ela
 
 
 A conexão entre os usuários não envolve o servidor, uma vez que se o mesmo não estiver funcionando, apenas será impossível conectar novos usuários, mas usuário que já estavam conectados continuarão sua troca de mensagens normalmente.
-![alt text](https://github.com/riccihenrique/Sudoku/blob/master/user.PNG)
-![alt text](https://github.com/riccihenrique/Sudoku/blob/master/2user.PNG)
+![alt text](https://github.com/riccihenrique/Sudoku/blob/master/user.png)
+![alt text](https://github.com/riccihenrique/Sudoku/blob/master/2user.png)
 
-![alt text](https://github.com/riccihenrique/Sudoku/blob/master/chat.PNG)
+![alt text](https://github.com/riccihenrique/Sudoku/blob/master/chat.png)
 
